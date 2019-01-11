@@ -1,0 +1,25 @@
+.d-con{
+  display: inline-block;
+  text-align: left;
+  .d-img{
+    animation: mymove 4s infinite;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .d-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: .9375rem;
+  }
+  .d-detail{
+    font-size: .875rem;
+    display: inline-block;
+    width: 21.875rem;
+    & div{
+      display: inline-block;
+      line-height: 2;
+    }
+  }
+}
+
+
